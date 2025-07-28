@@ -1,9 +1,11 @@
 {
-  "name": "tiptap-converter-cli",
+  "name": "@spaceduckapp/tiptap-converter-cli",
   "version": "1.0.0",
   "description": "Convert from tiptap json to html and vice-versa",
   "type": "module",
-  "bin": "dist/cli.js",
+  "bin": {
+    "tiptap-converter-cli": "dist/cli.js"
+  },
   "main": "dist/cli.js",
   "scripts": {
     "build": "tsc",
